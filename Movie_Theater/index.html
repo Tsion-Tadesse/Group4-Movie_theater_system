@@ -37,6 +37,15 @@
             position: absolute;
             right:8px;
         }
+        .reservation_div{
+            position: absolute;
+            text-align: center;
+            left:8px;
+            background-color:#8eb87f;
+        }
+        table tr td{
+            padding: 10px;
+        }
     </style>
 
 
@@ -50,6 +59,49 @@
     <a href="">log-in/Sign up</a>
 </div>
 <br><br>
+<div class="reservation_div">
+    <table>
+        <th>
+            <h3>Reserve Ticket</h3>
+        </th>
+        <tr>
+            <td><input type="datetime-local"> </td>
+        </tr>
+         <tr>
+            <td>
+                <label for="movies"></label>
+                <select id="movies" name="movies" >
+                    <option value="all">Movies</option>
+                    <option value="m1">Movie1</option>
+                     <option value="m2">Movie2</option>
+                    <option value="m3">Movie3</option>
+                     <option value="m4">Movie4</option>
+                     <option value="m5">Movie5</option>
+                </select>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <select id="genre" name="genre" >
+                    <option value="all">All genre</option>
+                    <option value="comedy">Comedy</option>
+                     <option value="m2">Crime</option>
+                    <option value="m3">Science Firction</option>
+                     <option value="m4">Documentary</option>
+                     <option value="m5">Romantic</option>
+                    <option value="m5">Horror</option>
+                </select>
+            </td>
+        </tr>
+         <tr>
+            <td><input style=" padding:5px 5px;" type="submit" value="Show result" /> </td>
+
+        </tr>
+    </table>
+
+
+</div>
 <div class="search_div">
     <form class="search">
     <input type="text" placeholder="Search here..." name="search"/>
