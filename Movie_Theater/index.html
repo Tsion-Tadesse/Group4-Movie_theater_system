@@ -1,10 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <style>
+    body{
+    background-color:#d3d3d3;
+
+    }
+         .home_nav_bar{
+         overflow: hidden;
+        background-color: black;
+        }
+        .home_nav_bar a{
+            float: left;
+            padding: 14px 17px;
+            text-align: center;
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+            padding-left: 6%;
+            padding-right: 6%;
+        }
+        .home_nav_bar a:hover{
+            background-color: blue;
+        }
+        form.search button{
+            background-color: blue;
+            padding: 5px;
+        }
+        form.search input{
+            padding: 6px;
+        }
+        .search_div{
+            position: absolute;
+            right:8px;
+        }
+    </style>
+
+
 </head>
 <body>
+<div class="home_nav_bar">
+    <a><img src="" alt="logo" style="width:100px; height:100px;" /></a>
+    <a href="">Home</a>
+    <a href="">Movie</a>
+    <a href="">Get Ticket</a>
+    <a href="">log-in/Sign up</a>
+</div>
+<br><br>
+<div class="search_div">
+    <form class="search">
+    <input type="text" placeholder="Search here..." name="search"/>
+    <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
 
 </body>
 </html>
