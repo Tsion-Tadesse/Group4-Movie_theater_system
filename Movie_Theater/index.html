@@ -37,14 +37,23 @@
             position: absolute;
             right:10px;
         }
-        .reservation_div{
+        .reservation_div {
             position: absolute;
             text-align: center;
             left:8px;
-           background-color:#8eb87f;
+           background-color:brown;
+        }
+        .shortcut_movie{
+            position: relative;
+            float: down;
+            border: solid;
+
         }
         table tr td{
             padding: 10px;
+        }
+        .movie_listing{
+
         }
     </style>
 
@@ -60,7 +69,7 @@
 </div>
 <br><br>
 <div class="reservation_div">
-    <table>
+    <table id="t">
         <th>
             <h3>Reserve Ticket</h3>
         </th>
@@ -100,14 +109,55 @@
         </tr>
     </table>
 
-
 </div>
+
+
 <div class="search_div">
     <form class="search">
     <input type="text" placeholder="Search here..." name="search"/>
     <button type="submit"><i class="fa fa-search"></i></button>
 </form>
-</div>
 
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<hr>
+<table class="movie_listing" style="background-color:none;">
+    <th>Movies On the Screen...</th>
+    <tr style="padding: 20px 30px;">
+        <th><img src="moviesamp1.png" /></th>
+        <td>
+        Rated: PG-13
+        Description: blah blah blah
+            <td><input type="submit" value="Get ticket" href="ticket.html" /></td>
+        </td>
+
+ </tr>
+    <th><img src="moviesamp2.png" /></th>
+    <td>
+    Rated: PG-13
+    Description: blah blah blah
+        <td><input type="submit" value="Get ticket" href="ticket.html"/></td>
+    </td>
+
+     </tr>
+    <tr>
+        <td><img src="moviesamp3.png" /></td>
+        <td>
+    Rated: PG-13
+    Description: blah blah blah
+            <td><input type="submit" value="Get ticket" href="ticket.html"/></td>
+</td>
+    </tr>
+
+    <tr>
+        <td><img src="moviesamp4.png" /></td>
+        <td>
+    Rated: PG-13
+    Description: blah blah blah
+            <td><input type="submit" value="Get ticket" href="ticket.html"/></td>
+</td>
+    </tr>
+
+</table>
 </body>
 </html>
